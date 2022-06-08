@@ -1,17 +1,47 @@
 <div align='center'>
-<h1>France </h1>
-<img src='README.assets/vite-vue-tailwind.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
+<h1>France</h1>
+<!-- <img src='README.assets/vite-vue-tailwind.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/> -->
 </div>
-
+<!-- 
 <p align='center'>
 Mocking up web app with <b>Vite-Boot </b><sup><em>(speed)</em></sup><br>
 </p>
-
 <div align='center'>
-<b>English</b> | <a href="README.zh-CN.md">简体中文</a>
-</div>
+<b>English</b> | <a href="README.zh-CN.md">简体中文</a> 
+</div>-->
 
-## Features
+## Installation for Titia
+
+```
+git clone https://github.com/wouterkoppers/france
+npm install
+```
+
+## Development for Titia
+
+After installation you can develop with:
+
+```
+npm run dev
+visit browser at localhost:8888
+```
+
+Most things happen in the src folder.
+In src\router\index.ts you can add a new page.
+
+Put images in src\assets
+
+Check:
+src\router\index.ts --> add a page
+src\views\home\voorbeeld.vue --> an example page
+src\components\layout\Navbar\index.vue --> edit the top bar, menu
+src\views\home\movingnowhere.vue --> link to voorbeeld.vue
+
+## Titia: troubleshooting?
+
+If npm doesnt cooperate, use pnpm
+
+If the browser doesnt update after a refresh, use chrome instead of FF
 
 - ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/) - born with fastness
 - 💪 [Typescript](https://www.typescriptlang.org/) - of course! necessary

@@ -14,7 +14,7 @@
         </a>
         <div>
           <router-link class="pl-4" :to="'/index'">index</router-link>
-          <router-link class="pl-4" :to="'/Home'">Home</router-link>
+          <router-link class="pl-4" :to="'/voorbeeld'">voorbeeld</router-link>
           <router-link class="pl-4" :to="'/movingnowhere'">movingnowhere</router-link>
         </div>
       </div>
