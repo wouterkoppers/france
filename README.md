@@ -43,6 +43,8 @@ If npm doesnt cooperate, use pnpm
 
 If the browser doesnt update after a refresh, use chrome instead of FF
 
+# Original readme
+
 - ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/) - born with fastness
 - 💪 [Typescript](https://www.typescriptlang.org/) - of course! necessary
 - 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
